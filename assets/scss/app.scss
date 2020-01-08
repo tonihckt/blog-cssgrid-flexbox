@@ -1,0 +1,21 @@
+// ====================================
+// Main
+// ====================================
+
+// Custom bootstrap variable overrides
+// @import "bootstrap_variable_overrides";
+
+// Bootstrap and its default variables
+// @import "bootstrap/bootstrap";
+
+// Your base style
+@import "./base/variables";
+@import "./base/fonts";
+@import "./base/mixins";
+@import "./base/general";
+@import "./base/layout";
+@import "./base/module";
+
+// Custom style
+@import "./custom";
+@import "./media-queries";
